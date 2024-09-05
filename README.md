@@ -94,7 +94,7 @@
    5.3.1. [Using PostgreSQL with Python, Node.js, etc.](#531-using-postgresql-with-python-nodejs-etc)\
    5.3.2. [PostgreSQL in Docker](#532-postgresql-in-docker)
 
-### 6.\ [Best Practices and Real-world Use Cases](#6-best-practices-and-real-world-use-cases)
+### 6\. [Best Practices and Real-world Use Cases](#6-best-practices-and-real-world-use-cases)
 
 - [Database Design Best Practices](#database-design-best-practices)
 - [Schema Management and Versioning (with tools like Flyway or Liquibase)](#schema-management-and-versioning-with-tools-like-flyway-or-liquibase)
