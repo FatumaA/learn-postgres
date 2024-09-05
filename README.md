@@ -1,6 +1,6 @@
 <!-- Create ToC and content on learning postgres. Progressive from basics -> intermediate -> advanced -->
 
-## ![postgres](https://github.com/user-attachments/assets/caadeb56-16f6-4062-a208-50aaf2c86e06)
+![postgres 1 (2)](https://github.com/user-attachments/assets/6a3ce00b-4923-4cf4-88fb-525f7edf721c)
 
 ## Table of Contents
 
