@@ -96,15 +96,16 @@
 
 ### 6\. [Best Practices and Real-world Use Cases](#6-best-practices-and-real-world-use-cases)
 
-- [Database Design Best Practices](#database-design-best-practices)
-- [Schema Management and Versioning (with tools like Flyway or Liquibase)](#schema-management-and-versioning-with-tools-like-flyway-or-liquibase)
-- [Backups and Restores](#backups-and-restores)
-- [Handling Migrations](#handling-migrations)
-- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-- [Case Studies: Real-world PostgreSQL Use Cases](#case-studies-real-world-postgresql-use-cases)
+6.1. [Database Design Best Practices](#61-database-design-best-practices)
+6.2. [Schema Management and Versioning (with tools like Flyway or Liquibase)](#62-schema-management-and-versioning-with-tools-like-flyway-or-liquibase)
+6.3. [Backups and Restores](#63-backups-and-restores)
+6.4. [Handling Migrations](#64-handling-migrations)
+6.5. [Common Mistakes to Avoid](#65-common-mistakes-to-avoid)
+6.6. [Case Studies: Real-world PostgreSQL Use Cases](#66-case-studies-real-world-postgresql-use-cases)
 
 ---
 
 # Introduction to PostgreSQL
 
-PostgresQL is an open-source relational database management system (RDBMS). It is a reliable database that has been around for almost 30 years.
+[](#11-what-is-postgresql)
+PostgreSQL, commonly known as Postgres, is an open-source [relational database management system (RDBMS)](https://cloud.google.com/learn/what-is-a-relational-database?hl=en). It is a reliable database that has been actively developed and used for almost 30 years.
