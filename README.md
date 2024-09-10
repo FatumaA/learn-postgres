@@ -96,11 +96,11 @@
 
 ### 6\. [Best Practices and Real-world Use Cases](#6-best-practices-and-real-world-use-cases)
 
-6.1. [Database Design Best Practices](#61-database-design-best-practices)
-6.2. [Schema Management and Versioning (with tools like Flyway or Liquibase)](#62-schema-management-and-versioning-with-tools-like-flyway-or-liquibase)
-6.3. [Backups and Restores](#63-backups-and-restores)
-6.4. [Handling Migrations](#64-handling-migrations)
-6.5. [Common Mistakes to Avoid](#65-common-mistakes-to-avoid)
+6.1. [Database Design Best Practices](#61-database-design-best-practices)\
+6.2. [Schema Management and Versioning (with tools like Flyway or Liquibase)](#62-schema-management-and-versioning-with-tools-like-flyway-or-liquibase)\
+6.3. [Backups and Restores](#63-backups-and-restores)\
+6.4. [Handling Migrations](#64-handling-migrations)\
+6.5. [Common Mistakes to Avoid](#65-common-mistakes-to-avoid)\
 6.6. [Case Studies: Real-world PostgreSQL Use Cases](#66-case-studies-real-world-postgresql-use-cases)
 
 ---
