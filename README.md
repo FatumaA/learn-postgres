@@ -105,7 +105,7 @@
 
 ---
 
-## 1. Introduction to PostgreSQL
+### 1. Introduction to PostgreSQL
 
 ### 1.1. What is PostgreSQL?
 
