@@ -1,5 +1,3 @@
-# PostgreSQL Learning Outline
-
 ![PostgreSQL-Logo 1](https://github.com/user-attachments/assets/6e1cf5b4-e6f2-47ff-9c3f-621aac45a11b)
 
 ## Table of Contents
@@ -9,7 +7,7 @@
 1.1. [What is PostgreSQL?](#11-what-is-postgresql)  
 1.2. [Installing PostgreSQL (Windows, Mac, Linux)](#12-installing-postgresql-windows-mac-linux)  
 1.3. [PostgreSQL vs Other Databases](#13-postgresql-vs-other-databases)  
-1.4. [First Steps: Connecting to PostgreSQL](#14-first-steps-connecting-to-postgresql)  
+1.4. [First Steps: Connecting to PostgreSQL](#14-how-to-connect-to-postgresql)  
  1.4.1. [Using `psql` (PostgreSQL Command-Line Tool)](#141-using-psql-postgresql-command-line-tool)  
  1.4.2. [Connecting via GUI (pgAdmin, DBeaver)](#142-connecting-via-gui-pgadmin-dbeaver)
 
@@ -113,17 +111,66 @@ PostgreSQL, commonly known as Postgres, is an open-source [relational database m
 
 ### 1.2. Installing PostgreSQL (Windows, Mac, Linux)
 
-[Content to be added]
+To install Postgres on your system, follow the [official documentation](https://www.postgresql.org/) for your operating system. This guide will focus on MacOs.
+
+There are several ways to install Postgres in Mac including using Homebrew, Docker, or downloading the installer from the official website. For this case, we will download using [Postgres.app](https://postgresapp.com/).
+
+Postgres.app is a Postgres installer that comes as a minimal app. It downloads Postgres and other common utilities and tools, and installs them to your system. It can handle multiple flavors of Postgres and can run multiple Postgres instances at the same time. It also comes with a simplified Graphical User Interface (GUI) for managing databases.
+
+To install Postgres.app:
+
+- Visit the official website.
+- Click the "Download" button to get the latest version.
+- Open the downloaded .dmg file.
+- Drag the Postgres.app icon to your Applications folder.
+
+To use Postgres.app, launch it from your Applications folder. It will start a Postgres server and you can see it running in the top menu bar.
+
+Next, add Postgres.app to your PATH environment variable. This will allow you to run Postgres commands from anywhere in your terminal. To do this, open your terminal and run the following command:
+
+```bash
+nano ~/.zshrc
+```
+
+Then, add the following line to the end of the file:
+
+```bash
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
+```
+
+Press `control + x` then type Y to save the file. After that, restart your terminal.
 
 ### 1.3. PostgreSQL vs Other Databases
 
-[Content to be added]
+Databases are of various types, each storing and managing data in their own way. Databases can be broadly categorized into these two categories:
 
-### 1.4. First Steps: Connecting to PostgreSQL
+- **Relational Databases (RDBMS) or SQL Databases**: Postgres is a relational database. This means it stores data in tables and those tables can be related to each other. Postgres is mostly used for structured data.
+- **NoSQL Databases**: These are non-relational databases that don't use tables. They are suited for unstructured or semi-structured data. Common types of NoSQL databases are:
+  - Key-Value Stores: Stores data as key-value pairs. [Redis](https://redis.io/) is a popular example.
+  - Document Databases: Stores data as documents. [MongoDB](https://www.mongodb.com/) is a popular example.
+  - Graph Databases: Stores data as nodes and edges. [Neo4j](https://neo4j.com/) is a popular example.
+
+### 1.4. How to Connect to PostgreSQL
+
+Open the postgres.app application and run the default instance it has. You will notice that it has three active databases - postgres, template1 and one named after the system user.
+
+- The postgres one is the default database that is created when you install Postgres. It is used to store system-level information.
+- The template1 one contains database templates that are used to create new databases.
+- The one named after the system user is an extra database that you can start using immediately.
+
+Once it is running, open a terminal window and type `psql` to connect to the default database. If all is well, you will see the Postgres version that postgres.app is using and be dropped into an interactive terminal. You can also connect to a specific database by typing `psql -d database_name`.
 
 #### 1.4.1. Using `psql` (PostgreSQL Command-Line Tool)
 
-[Content to be added]
+[PSQL](https://www.postgresql.org/docs/current/app-psql.html) is a command line tool that allows you to interact with a Postgres database. You can then interact with the connected database directly in the terminal. You can run `sql` commands, create tables, and perform other database operations.
+
+Common `psql` commands include:
+
+- `\l`: List all databases.
+- `\c database_name`: Connect to a specific database.
+- `\dt`: List all tables in the current database.
+- `\d table_name`: Describe a specific table.
+- `\q`: Quit the `psql` session.
 
 #### 1.4.2. Connecting via GUI (pgAdmin, DBeaver)
 
