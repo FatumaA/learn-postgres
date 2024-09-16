@@ -1,5 +1,7 @@
 ![PostgreSQL-Logo 1](https://github.com/user-attachments/assets/6e1cf5b4-e6f2-47ff-9c3f-621aac45a11b)
 
+[Link to video playlist (WIP)](https://www.youtube.com/watch?v=o9PVq69A3d0&list=PLGFMI3szNFUXprf884sCxFKJYORBPj0IY&pp=gAQBiAQB)
+
 ## Table of Contents
 
 ### 1. [Introduction to PostgreSQL](#1-introduction-to-postgresql)
@@ -108,6 +110,10 @@
 ### 1.1. What is PostgreSQL?
 
 PostgreSQL, commonly known as Postgres, is an open-source [relational database management system (RDBMS)](https://cloud.google.com/learn/what-is-a-relational-database?hl=en). It is a reliable database that has been actively developed and used for almost 30 years.
+
+It supports both structured and unstructured data, is highly extensible and has strong community support.
+
+[Video: What is PostgreSQL?](https://youtu.be/o9PVq69A3d0?si=KLXOxc82XD-ckR1y)
 
 ### 1.2. Installing PostgreSQL (Windows, Mac, Linux)
 
