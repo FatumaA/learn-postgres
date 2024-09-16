@@ -115,7 +115,7 @@ It supports both structured and unstructured data, is highly extensible and has 
 
 [Video: What is PostgreSQL?](https://youtu.be/o9PVq69A3d0?si=KLXOxc82XD-ckR1y)
 
-### 1.2. Installing PostgreSQL (Windows, Mac, Linux)
+### 1.2. Installing PostgreSQL (Mac)
 
 To install Postgres on your system, follow the [official documentation](https://www.postgresql.org/) for your operating system. This guide will focus on MacOs.
 
@@ -145,6 +145,8 @@ export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 ```
 
 Press `control + x` then type Y to save the file. After that, restart your terminal.
+
+[Video: How to install Postgres on Mac](https://youtu.be/AkGQDRPt7-4)
 
 ### 1.3. PostgreSQL vs Other Databases
 
